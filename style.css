@@ -21,16 +21,39 @@ body{
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    position: relative;
 }
 
 .circle{
-      height: 40rem;
-      width: 40rem;
-      background: red;
-      border-radius: 50%;
-      position: absolute;
-      top: 0;
-      left: 0;
+    height: 40rem;
+    width: 40rem;
+    border-radius: 50%;
+    position: absolute;
+
+}
+
+.circle-1{
+    top: 0;
+    left: 0;
+    background: linear-gradient(#2FA4FF, #00FFDD);
+}
+
+.circle-2{
+    top: 0;
+    right: 0;
+    background: linear-gradient(#2FA4FF, #00FFDD);
+}
+
+.circle-3{
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(#2FA4FF, #00FFDD);
+}
+
+.circle-4{
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(#2FA4FF, #00FFDD);
 }
 
 .neon > h1{
